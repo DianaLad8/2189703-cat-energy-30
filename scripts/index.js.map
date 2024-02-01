@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["source/scripts/index.js"],
+  "sourcesContent": ["const navPage = document.querySelector('.nav-page');\nconst navToggle = document.querySelector('.nav-page__toggle');\nconst contactsMap = document.querySelector('.contacts__map');\nconst pageBody = document.querySelector('.page__body');\n\npageBody.classList.remove('page__body--nojs');\ncontactsMap.classList.remove('contacts__map--nojs');\nnavPage.classList.remove('nav-page--nojs');\nnavPage.classList.add('nav-page--closed');\nnavPage.classList.remove('nav-page--opened');\n\nnavToggle.addEventListener('click', () => {\n  navPage.classList.toggle('nav-page--closed');\n  navPage.classList.toggle('nav-page--opened');\n});\n"],
+  "mappings": ";AAAA,IAAM,UAAU,SAAS,cAAc,WAAW;AAClD,IAAM,YAAY,SAAS,cAAc,mBAAmB;AAC5D,IAAM,cAAc,SAAS,cAAc,gBAAgB;AAC3D,IAAM,WAAW,SAAS,cAAc,aAAa;AAErD,SAAS,UAAU,OAAO,kBAAkB;AAC5C,YAAY,UAAU,OAAO,qBAAqB;AAClD,QAAQ,UAAU,OAAO,gBAAgB;AACzC,QAAQ,UAAU,IAAI,kBAAkB;AACxC,QAAQ,UAAU,OAAO,kBAAkB;AAE3C,UAAU,iBAAiB,SAAS,MAAM;AACxC,UAAQ,UAAU,OAAO,kBAAkB;AAC3C,UAAQ,UAAU,OAAO,kBAAkB;AAC7C,CAAC;",
+  "names": []
+}
